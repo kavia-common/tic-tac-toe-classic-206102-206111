@@ -8,6 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "eslint .",
+    "test": "CI=true jest --watchAll=false",
     "prebuild:android": "expo prebuild --platform android",
     "build": "npm run prebuild:android && cd android && ./gradlew assembleDebug"
   },
@@ -22,11 +23,17 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^13.3.3",
+    "@types/jest": "^29.5.14",
     "@types/react": "~19.0.10",
     "eslint": "^9.33.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.3.0",
+    "jest": "^29.7.0",
+    "jest-expo": "^54.0.16",
     "jiti": "^2.5.1",
+    "react-test-renderer": "^19.0.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.40.0"
   },
