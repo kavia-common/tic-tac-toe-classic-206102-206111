@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Tic Tac Toe Classic",
+    "slug": "tic-tac-toe-classic",
+    "scheme": "tictactoeclassic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"],
+    "jsEngine": "hermes"
+  }
+}
